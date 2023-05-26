@@ -69,7 +69,7 @@ namespace AlticeApi.BusinessObjects
             }
             catch (Exception ex)
             {
-                //return the error messae
+                //return the error message
                 return JsonConvert.SerializeObject(new { error = ex.Message });
             }
         }

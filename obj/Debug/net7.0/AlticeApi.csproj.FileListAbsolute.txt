@@ -42,3 +42,8 @@
 /home/jocko/AlticeApi/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
 /home/jocko/AlticeApi/bin/Debug/net7.0/Microsoft.AspNetCore.OData.dll
 /home/jocko/AlticeApi/bin/Debug/net7.0/Microsoft.OData.ModelBuilder.dll
+/home/jocko/AlticeApi/bin/Debug/net7.0/Castle.Core.dll
+/home/jocko/AlticeApi/bin/Debug/net7.0/Moq.dll
+/home/jocko/AlticeApi/bin/Debug/net7.0/nunit.framework.dll
+/home/jocko/AlticeApi/bin/Debug/net7.0/AlticeTests/obj/AlticeTests.csproj.nuget.dgspec.json
+/home/jocko/AlticeApi/bin/Debug/net7.0/AlticeTests/obj/project.assets.json

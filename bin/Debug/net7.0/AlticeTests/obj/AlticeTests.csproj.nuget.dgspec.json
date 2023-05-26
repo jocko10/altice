@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jocko/AlticeApi/AlticeApi.csproj": {}
+    "/home/jocko/AlticeApi/AlticeTests/AlticeTests.csproj": {}
   },
   "projects": {
-    "/home/jocko/AlticeApi/AlticeApi.csproj": {
+    "/home/jocko/AlticeApi/AlticeTests/AlticeTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jocko/AlticeApi/AlticeApi.csproj",
-        "projectName": "AlticeApi",
-        "projectPath": "/home/jocko/AlticeApi/AlticeApi.csproj",
+        "projectUniqueName": "/home/jocko/AlticeApi/AlticeTests/AlticeTests.csproj",
+        "projectName": "AlticeTests",
+        "projectPath": "/home/jocko/AlticeApi/AlticeTests/AlticeTests.csproj",
         "packagesPath": "/home/jocko/.nuget/packages/",
-        "outputPath": "/home/jocko/AlticeApi/obj/",
+        "outputPath": "/home/jocko/AlticeApi/AlticeTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jocko/.nuget/NuGet/NuGet.Config"
@@ -20,7 +20,6 @@
           "net7.0"
         ],
         "sources": {
-          "/usr/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,41 +38,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNet.OData": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[7.7.0, )"
+              "version": "[17.5.0, )"
             },
-            "Microsoft.AspNet.WebApi.Client": {
-              "target": "Package",
-              "version": "[5.2.9, )"
-            },
-            "Microsoft.AspNetCore.OData": {
-              "target": "Package",
-              "version": "[8.0.12, )"
-            },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.Extensions.Caching.Memory": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.18.4, )"
-            },
-            "NUNit": {
+            "NUnit": {
               "target": "Package",
               "version": "[3.13.3, )"
             },
-            "Newtonsoft.Json": {
+            "NUnit.Analyzers": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[3.6.1, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -88,9 +71,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

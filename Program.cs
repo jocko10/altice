@@ -7,7 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IUserBusinessObject,UserBusinessObject>();
 builder.Services.AddHttpClient();
 builder.Services.AddMemoryCache();
-builder.Services.AddODataQueryFilter();
 builder.Services.AddControllers().AddOData(options =>
     options.Select().Filter().Count().OrderBy().Expand());
 builder.Services.AddSwaggerGen();
